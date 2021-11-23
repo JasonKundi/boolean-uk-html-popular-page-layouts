@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template: 
+    "left-menu      header    header"    40px
+    "left-menu      main      right-menu" 1fr
+    "left-menu      footer    footer"   40px /
+    250px        1fr        250px;
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(243, 242, 239);
+}
+
+.header li {
+    display: inline;
+    padding-left: 40px;
+}
+
+.left-menu {
+    grid-area: left-menu;
+    background-color: rgb(184, 142, 17);
+
+}
+
+/* .left-sub-grid {
+    display: grid;
+    grid-column: ;
+    color: brown;
+    padding: 5px;
+} 
+
+.profile {
+    padding: 10px 20px; 
+    border: 2px solid blue;
+    border-radius: 10px ;
+    text-transform: uppercase;
+    color: blue;
+    margin: 20px;
+    margin-top: 200px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+
+} */
+
+
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(230, 88, 199);
+}
+
+.right-menu {
+    grid-area: right-menu;
+    background-color: rgb(23, 242, 239);
+}
+
+h1 { font-size: 20px;
+    color: black;
+    
+}
+
+.news-stuff  {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.todays-courses  {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.footer {
+        grid-area: footer;
+        background-color: rgb(243, 242, 239);
+    }
+
