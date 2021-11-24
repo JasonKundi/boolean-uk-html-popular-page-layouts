@@ -36,7 +36,7 @@
     display: grid;
     grid-column: ;
     color: brown;
-    padding: 5px;
+    padding: 5px; */
 } 
 
 .profile {
@@ -51,7 +51,7 @@
     font-weight: bold;
     text-align: center;
 
-} */
+} 
 
 
 }
@@ -84,5 +84,5 @@ h1 { font-size: 20px;
 .footer {
         grid-area: footer;
         background-color: rgb(243, 242, 239);
-    }
+}
 
